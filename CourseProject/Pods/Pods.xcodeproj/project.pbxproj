@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		091D12B6DB93888BB3D3DEAE61F4DD80 /* ISStegoEncoder.m in Sources */ = {isa = PBXBuildFile; fileRef = A981D9F57066705440547D9E78E0B6F2 /* ISStegoEncoder.m */; };
+		115F34C527B3B8B9FD820A78C76BEBB8 /* ISStegoUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = A5EB603EF263FCB0FC12DB4E94399168 /* ISStegoUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		22F16521B1D9A1B42EE885523B8180D3 /* ISStegoEncoder.h in Headers */ = {isa = PBXBuildFile; fileRef = C153AB0C993BEF19085656560CAB376A /* ISStegoEncoder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3554FF4DD178FCB3C7574F19E13553EA /* ISStegoDefaults.h in Headers */ = {isa = PBXBuildFile; fileRef = 17C1C170CE9E4489A464F2EF4DEC9420 /* ISStegoDefaults.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3A79F9111986C606AA230BCEFBEB897C /* ISStego-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 989D28BB11F281D2CC1CF8A6AAE21147 /* ISStego-dummy.m */; };
+		44A91B08F453054ACB866FE376BD1DD4 /* ISStegoDecoder.h in Headers */ = {isa = PBXBuildFile; fileRef = B3D66A3B694E873E3F8D5FCA511C18B4 /* ISStegoDecoder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4BF3FCDFCD4F8897E297BBEA9A10E134 /* ISPixelUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = FD0E5F57468A9A159F313AA9A8F41160 /* ISPixelUtilities.m */; };
+		71420A24DE86B07EA8D14AD54DA47283 /* ISSteganographer.h in Headers */ = {isa = PBXBuildFile; fileRef = C61446BDFCD6E5F0BE5B29A6B9BEE1B2 /* ISSteganographer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		94B27DA467E21F6F62F47A77F8A499C4 /* ISPixelUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 1CE503AB6CC96E0747C514C5AFC33174 /* ISPixelUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9A523188F2DA6DDDD0C220FEC2162E65 /* ISStegoUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 95ECA8F59E238E414C43814FA67E5D1B /* ISStegoUtilities.m */; };
+		AD3FE98532D544D2AF16555B8C58FE31 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		D2E237E2BEA170F12C27BBA1D0A178B2 /* ISStegoDecoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 06A1BCF043FF3C202B01D98F22825A8A /* ISStegoDecoder.m */; };
+		D4D464A687731C1807D944552E95C5D4 /* Pods-CourseProject-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F205D3A12FBC8796B5762CC75F59DED5 /* Pods-CourseProject-dummy.m */; };
+		EB05FF9604594F8961BFFFD29F09D878 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		F4DB0B968B16569EDFA9D0182B6E6CDD /* ISStegoDefaults.m in Sources */ = {isa = PBXBuildFile; fileRef = CF465B850F0CE192A09C01638D10FCC2 /* ISStegoDefaults.m */; };
+		FB317C7A4E653081B926795300003D44 /* ISSteganographer.m in Sources */ = {isa = PBXBuildFile; fileRef = F08E0EE652CB8280ACA073990A6649CC /* ISSteganographer.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BA9E6F415764CE4DE770A93A7955D748 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 556E7FB5F3CF7FA8C4B4DE6558BEEDD2;
+			remoteInfo = ISStego;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		038352F6C6980D09391E2660D6AA394B /* ISStego.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ISStego.xcconfig; sourceTree = "<group>"; };
+		06A1BCF043FF3C202B01D98F22825A8A /* ISStegoDecoder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ISStegoDecoder.m; path = ISStego/ISStegoDecoder.m; sourceTree = "<group>"; };
+		0D2A876357BA3F70C52884BBB0CBD169 /* Pods-CourseProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CourseProject.debug.xcconfig"; sourceTree = "<group>"; };
+		1791249F89274926B3CF65E3686C8CB5 /* Pods-CourseProject-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CourseProject-acknowledgements.markdown"; sourceTree = "<group>"; };
+		17C1C170CE9E4489A464F2EF4DEC9420 /* ISStegoDefaults.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ISStegoDefaults.h; path = ISStego/Utilities/ISStegoDefaults.h; sourceTree = "<group>"; };
+		1CE503AB6CC96E0747C514C5AFC33174 /* ISPixelUtilities.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ISPixelUtilities.h; path = ISStego/Utilities/ISPixelUtilities.h; sourceTree = "<group>"; };
+		35169BA5654CE074058E7B5D7A0E301D /* Pods-CourseProject-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CourseProject-frameworks.sh"; sourceTree = "<group>"; };
+		5C79C236C81C018A2FD2CF373791846C /* Pods-CourseProject-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CourseProject-resources.sh"; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		95ECA8F59E238E414C43814FA67E5D1B /* ISStegoUtilities.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ISStegoUtilities.m; path = ISStego/Utilities/ISStegoUtilities.m; sourceTree = "<group>"; };
+		989D28BB11F281D2CC1CF8A6AAE21147 /* ISStego-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ISStego-dummy.m"; sourceTree = "<group>"; };
+		A305A4894C3364652771E2F3D8A813FF /* libPods-CourseProject.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-CourseProject.a"; path = "libPods-CourseProject.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5EB603EF263FCB0FC12DB4E94399168 /* ISStegoUtilities.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ISStegoUtilities.h; path = ISStego/Utilities/ISStegoUtilities.h; sourceTree = "<group>"; };
+		A981D9F57066705440547D9E78E0B6F2 /* ISStegoEncoder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ISStegoEncoder.m; path = ISStego/ISStegoEncoder.m; sourceTree = "<group>"; };
+		B3D66A3B694E873E3F8D5FCA511C18B4 /* ISStegoDecoder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ISStegoDecoder.h; path = ISStego/ISStegoDecoder.h; sourceTree = "<group>"; };
+		C153AB0C993BEF19085656560CAB376A /* ISStegoEncoder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ISStegoEncoder.h; path = ISStego/ISStegoEncoder.h; sourceTree = "<group>"; };
+		C61446BDFCD6E5F0BE5B29A6B9BEE1B2 /* ISSteganographer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ISSteganographer.h; path = ISStego/ISSteganographer.h; sourceTree = "<group>"; };
+		CF465B850F0CE192A09C01638D10FCC2 /* ISStegoDefaults.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ISStegoDefaults.m; path = ISStego/Utilities/ISStegoDefaults.m; sourceTree = "<group>"; };
+		D76AA2C242DD4283CDE973825827E19A /* Pods-CourseProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CourseProject.release.xcconfig"; sourceTree = "<group>"; };
+		E3594945569D0F455FFB9CAD43816434 /* Pods-CourseProject-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CourseProject-acknowledgements.plist"; sourceTree = "<group>"; };
+		EB7FCA6CE6637D9AA1013F8E04A6F18D /* libISStego.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libISStego.a; path = libISStego.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECC74483A183EA3B14E4B6BAB313977A /* ISStego-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ISStego-prefix.pch"; sourceTree = "<group>"; };
+		F08E0EE652CB8280ACA073990A6649CC /* ISSteganographer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ISSteganographer.m; path = ISStego/ISSteganographer.m; sourceTree = "<group>"; };
+		F205D3A12FBC8796B5762CC75F59DED5 /* Pods-CourseProject-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CourseProject-dummy.m"; sourceTree = "<group>"; };
+		FD0E5F57468A9A159F313AA9A8F41160 /* ISPixelUtilities.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ISPixelUtilities.m; path = ISStego/Utilities/ISPixelUtilities.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		210BE31DBFF2471111941C200AEBA662 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB05FF9604594F8961BFFFD29F09D878 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B9B0BD9A1DC9CE71EE967D550FFB48C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD3FE98532D544D2AF16555B8C58FE31 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0DFA1F63225791D54A3CF4FC208F6986 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B94B3682AF88A10D23E9AF10E4865DEA /* ISStego */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		3B1DE86347EB45CA3DFEE5A85D646C7E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				038352F6C6980D09391E2660D6AA394B /* ISStego.xcconfig */,
+				989D28BB11F281D2CC1CF8A6AAE21147 /* ISStego-dummy.m */,
+				ECC74483A183EA3B14E4B6BAB313977A /* ISStego-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/ISStego";
+			sourceTree = "<group>";
+		};
+		61B61351BA1E238EEB2A34DEF69EB4AD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EB7FCA6CE6637D9AA1013F8E04A6F18D /* libISStego.a */,
+				A305A4894C3364652771E2F3D8A813FF /* libPods-CourseProject.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				0DFA1F63225791D54A3CF4FC208F6986 /* Pods */,
+				61B61351BA1E238EEB2A34DEF69EB4AD /* Products */,
+				FD2328232F32F014DE45B8B46D699247 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		B94B3682AF88A10D23E9AF10E4865DEA /* ISStego */ = {
+			isa = PBXGroup;
+			children = (
+				1CE503AB6CC96E0747C514C5AFC33174 /* ISPixelUtilities.h */,
+				FD0E5F57468A9A159F313AA9A8F41160 /* ISPixelUtilities.m */,
+				C61446BDFCD6E5F0BE5B29A6B9BEE1B2 /* ISSteganographer.h */,
+				F08E0EE652CB8280ACA073990A6649CC /* ISSteganographer.m */,
+				B3D66A3B694E873E3F8D5FCA511C18B4 /* ISStegoDecoder.h */,
+				06A1BCF043FF3C202B01D98F22825A8A /* ISStegoDecoder.m */,
+				17C1C170CE9E4489A464F2EF4DEC9420 /* ISStegoDefaults.h */,
+				CF465B850F0CE192A09C01638D10FCC2 /* ISStegoDefaults.m */,
+				C153AB0C993BEF19085656560CAB376A /* ISStegoEncoder.h */,
+				A981D9F57066705440547D9E78E0B6F2 /* ISStegoEncoder.m */,
+				A5EB603EF263FCB0FC12DB4E94399168 /* ISStegoUtilities.h */,
+				95ECA8F59E238E414C43814FA67E5D1B /* ISStegoUtilities.m */,
+				3B1DE86347EB45CA3DFEE5A85D646C7E /* Support Files */,
+			);
+			name = ISStego;
+			path = ISStego;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BC6C2EA841C449ADE369AB47A7633A09 /* Pods-CourseProject */ = {
+			isa = PBXGroup;
+			children = (
+				1791249F89274926B3CF65E3686C8CB5 /* Pods-CourseProject-acknowledgements.markdown */,
+				E3594945569D0F455FFB9CAD43816434 /* Pods-CourseProject-acknowledgements.plist */,
+				F205D3A12FBC8796B5762CC75F59DED5 /* Pods-CourseProject-dummy.m */,
+				35169BA5654CE074058E7B5D7A0E301D /* Pods-CourseProject-frameworks.sh */,
+				5C79C236C81C018A2FD2CF373791846C /* Pods-CourseProject-resources.sh */,
+				0D2A876357BA3F70C52884BBB0CBD169 /* Pods-CourseProject.debug.xcconfig */,
+				D76AA2C242DD4283CDE973825827E19A /* Pods-CourseProject.release.xcconfig */,
+			);
+			name = "Pods-CourseProject";
+			path = "Target Support Files/Pods-CourseProject";
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		FD2328232F32F014DE45B8B46D699247 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				BC6C2EA841C449ADE369AB47A7633A09 /* Pods-CourseProject */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		B271CD298F3C16E6110CF1262DEB60D0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94B27DA467E21F6F62F47A77F8A499C4 /* ISPixelUtilities.h in Headers */,
+				71420A24DE86B07EA8D14AD54DA47283 /* ISSteganographer.h in Headers */,
+				44A91B08F453054ACB866FE376BD1DD4 /* ISStegoDecoder.h in Headers */,
+				3554FF4DD178FCB3C7574F19E13553EA /* ISStegoDefaults.h in Headers */,
+				22F16521B1D9A1B42EE885523B8180D3 /* ISStegoEncoder.h in Headers */,
+				115F34C527B3B8B9FD820A78C76BEBB8 /* ISStegoUtilities.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		556E7FB5F3CF7FA8C4B4DE6558BEEDD2 /* ISStego */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 38B24DFD7AE42F455A584039A1FEB4DA /* Build configuration list for PBXNativeTarget "ISStego" */;
+			buildPhases = (
+				E65AA2D68718DDA28C08121B9BD3D280 /* Sources */,
+				3B9B0BD9A1DC9CE71EE967D550FFB48C /* Frameworks */,
+				B271CD298F3C16E6110CF1262DEB60D0 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ISStego;
+			productName = ISStego;
+			productReference = EB7FCA6CE6637D9AA1013F8E04A6F18D /* libISStego.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		7B4082BDF6C30A87BBB24C6ED3322AB8 /* Pods-CourseProject */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 87A6BB25E19CE7992BE89A5B01C2235A /* Build configuration list for PBXNativeTarget "Pods-CourseProject" */;
+			buildPhases = (
+				83CB5527CBE3D9808041BC673ECE53CA /* Sources */,
+				210BE31DBFF2471111941C200AEBA662 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E0E9953E0B414DD7F2A1E0B1DEF635A7 /* PBXTargetDependency */,
+			);
+			name = "Pods-CourseProject";
+			productName = "Pods-CourseProject";
+			productReference = A305A4894C3364652771E2F3D8A813FF /* libPods-CourseProject.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 61B61351BA1E238EEB2A34DEF69EB4AD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				556E7FB5F3CF7FA8C4B4DE6558BEEDD2 /* ISStego */,
+				7B4082BDF6C30A87BBB24C6ED3322AB8 /* Pods-CourseProject */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		83CB5527CBE3D9808041BC673ECE53CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4D464A687731C1807D944552E95C5D4 /* Pods-CourseProject-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E65AA2D68718DDA28C08121B9BD3D280 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4BF3FCDFCD4F8897E297BBEA9A10E134 /* ISPixelUtilities.m in Sources */,
+				FB317C7A4E653081B926795300003D44 /* ISSteganographer.m in Sources */,
+				3A79F9111986C606AA230BCEFBEB897C /* ISStego-dummy.m in Sources */,
+				D2E237E2BEA170F12C27BBA1D0A178B2 /* ISStegoDecoder.m in Sources */,
+				F4DB0B968B16569EDFA9D0182B6E6CDD /* ISStegoDefaults.m in Sources */,
+				091D12B6DB93888BB3D3DEAE61F4DD80 /* ISStegoEncoder.m in Sources */,
+				9A523188F2DA6DDDD0C220FEC2162E65 /* ISStegoUtilities.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E0E9953E0B414DD7F2A1E0B1DEF635A7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ISStego;
+			target = 556E7FB5F3CF7FA8C4B4DE6558BEEDD2 /* ISStego */;
+			targetProxy = BA9E6F415764CE4DE770A93A7955D748 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0089F5C3D928C0B78788CA824F122B6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 038352F6C6980D09391E2660D6AA394B /* ISStego.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/ISStego/ISStego-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+			};
+			name = Release;
+		};
+		3230B66B0C47BA743A1F545D4D481365 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 038352F6C6980D09391E2660D6AA394B /* ISStego.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/ISStego/ISStego-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+			};
+			name = Debug;
+		};
+		537F2A2C554F332E7F5F34A56B7DF865 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D76AA2C242DD4283CDE973825827E19A /* Pods-CourseProject.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		ABC1C622E3A94D5EFA80B6DBB5E64193 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D72E489B59C3A70112D2342F402BD262 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		DCF6742A221297115BBA7678C7187C3F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0D2A876357BA3F70C52884BBB0CBD169 /* Pods-CourseProject.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D72E489B59C3A70112D2342F402BD262 /* Debug */,
+				ABC1C622E3A94D5EFA80B6DBB5E64193 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		38B24DFD7AE42F455A584039A1FEB4DA /* Build configuration list for PBXNativeTarget "ISStego" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3230B66B0C47BA743A1F545D4D481365 /* Debug */,
+				0089F5C3D928C0B78788CA824F122B6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		87A6BB25E19CE7992BE89A5B01C2235A /* Build configuration list for PBXNativeTarget "Pods-CourseProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCF6742A221297115BBA7678C7187C3F /* Debug */,
+				537F2A2C554F332E7F5F34A56B7DF865 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

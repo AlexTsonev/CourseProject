@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		72FB1FA43455317BBE22B60D /* libPods-CourseProject.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2844F40BA0D3F7EE4AF2B1E9 /* libPods-CourseProject.a */; };
 		A2F26C5620223B33008A5704 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A2F26C5520223B33008A5704 /* AppDelegate.m */; };
 		A2F26C5920223B33008A5704 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A2F26C5820223B33008A5704 /* ViewController.m */; };
 		A2F26C5C20223B33008A5704 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2F26C5A20223B33008A5704 /* Main.storyboard */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2844F40BA0D3F7EE4AF2B1E9 /* libPods-CourseProject.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CourseProject.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2F26C5120223B33008A5704 /* CourseProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CourseProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2F26C5420223B33008A5704 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		A2F26C5520223B33008A5704 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -26,6 +28,8 @@
 		A2F26C6020223B33008A5704 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A2F26C6220223B33008A5704 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A2F26C6320223B33008A5704 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AB9F62B7073A90CA54E01FCC /* Pods-CourseProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CourseProject.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CourseProject/Pods-CourseProject.debug.xcconfig"; sourceTree = "<group>"; };
+		BA383777BE0F6BC7AA8DBED2 /* Pods-CourseProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CourseProject.release.xcconfig"; path = "Pods/Target Support Files/Pods-CourseProject/Pods-CourseProject.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +37,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				72FB1FA43455317BBE22B60D /* libPods-CourseProject.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		23A87D6820C0B025141D7103 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2844F40BA0D3F7EE4AF2B1E9 /* libPods-CourseProject.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		A2F26C4820223B33008A5704 = {
 			isa = PBXGroup;
 			children = (
 				A2F26C5320223B33008A5704 /* CourseProject */,
 				A2F26C5220223B33008A5704 /* Products */,
+				B19C55D6F70FC3E9D4F78CDC /* Pods */,
+				23A87D6820C0B025141D7103 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,17 +73,74 @@
 		A2F26C5320223B33008A5704 /* CourseProject */ = {
 			isa = PBXGroup;
 			children = (
-				A2F26C5420223B33008A5704 /* AppDelegate.h */,
-				A2F26C5520223B33008A5704 /* AppDelegate.m */,
-				A2F26C5720223B33008A5704 /* ViewController.h */,
-				A2F26C5820223B33008A5704 /* ViewController.m */,
+				A2F26C6320223B33008A5704 /* main.m */,
+				A2F26C6B20223BA2008A5704 /* Resources */,
+				A2F26C6A20223B9C008A5704 /* Classes */,
+			);
+			path = CourseProject;
+			sourceTree = "<group>";
+		};
+		A2F26C6A20223B9C008A5704 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				A2F26C6D20223BB8008A5704 /* Flow */,
+				A2F26C6C20223BAF008A5704 /* Application */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		A2F26C6B20223BA2008A5704 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
 				A2F26C5A20223B33008A5704 /* Main.storyboard */,
 				A2F26C5D20223B33008A5704 /* Assets.xcassets */,
 				A2F26C5F20223B33008A5704 /* LaunchScreen.storyboard */,
 				A2F26C6220223B33008A5704 /* Info.plist */,
-				A2F26C6320223B33008A5704 /* main.m */,
 			);
-			path = CourseProject;
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		A2F26C6C20223BAF008A5704 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				A2F26C5420223B33008A5704 /* AppDelegate.h */,
+				A2F26C5520223B33008A5704 /* AppDelegate.m */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		A2F26C6D20223BB8008A5704 /* Flow */ = {
+			isa = PBXGroup;
+			children = (
+				A2F26C6E20223BBB008A5704 /* Main */,
+			);
+			path = Flow;
+			sourceTree = "<group>";
+		};
+		A2F26C6E20223BBB008A5704 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				A2F26C6F20223BC0008A5704 /* View */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		A2F26C6F20223BC0008A5704 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A2F26C5720223B33008A5704 /* ViewController.h */,
+				A2F26C5820223B33008A5704 /* ViewController.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B19C55D6F70FC3E9D4F78CDC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AB9F62B7073A90CA54E01FCC /* Pods-CourseProject.debug.xcconfig */,
+				BA383777BE0F6BC7AA8DBED2 /* Pods-CourseProject.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -78,9 +150,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A2F26C6720223B33008A5704 /* Build configuration list for PBXNativeTarget "CourseProject" */;
 			buildPhases = (
+				F1CB0E4173F4822C4238E6CD /* [CP] Check Pods Manifest.lock */,
 				A2F26C4D20223B33008A5704 /* Sources */,
 				A2F26C4E20223B33008A5704 /* Frameworks */,
 				A2F26C4F20223B33008A5704 /* Resources */,
+				B099F8A3B0E74C78915A75D3 /* [CP] Embed Pods Frameworks */,
+				2A9E539846315D616F4A9DDB /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -136,6 +211,57 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2A9E539846315D616F4A9DDB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CourseProject/Pods-CourseProject-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B099F8A3B0E74C78915A75D3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CourseProject/Pods-CourseProject-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F1CB0E4173F4822C4238E6CD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CourseProject-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		A2F26C4D20223B33008A5704 /* Sources */ = {
@@ -276,11 +402,12 @@
 		};
 		A2F26C6820223B33008A5704 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AB9F62B7073A90CA54E01FCC /* Pods-CourseProject.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 38QC7Z85MT;
-				INFOPLIST_FILE = CourseProject/Info.plist;
+				INFOPLIST_FILE = CourseProject/Resources/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = AT.CourseProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -290,11 +417,12 @@
 		};
 		A2F26C6920223B33008A5704 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BA383777BE0F6BC7AA8DBED2 /* Pods-CourseProject.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 38QC7Z85MT;
-				INFOPLIST_FILE = CourseProject/Info.plist;
+				INFOPLIST_FILE = CourseProject/Resources/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = AT.CourseProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
