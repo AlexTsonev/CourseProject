@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_0" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Stego Insertion View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="StegoInsertionViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="T3k-dF-Pug">
+                                <rect key="frame" x="60" y="47" width="200" height="200"/>
+                                <gestureRecognizers/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="200" id="Xtq-NV-0Y6"/>
+                                    <constraint firstAttribute="width" secondItem="T3k-dF-Pug" secondAttribute="height" multiplier="1:1" id="knt-Bb-Jtd"/>
+                                </constraints>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="Wns-RS-qT4" appends="YES" id="d8x-nQ-nBR"/>
+                                </connections>
+                            </imageView>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="i9w-DB-Nya">
+                                <rect key="frame" x="32" y="311" width="256" height="120"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XJf-1P-uDp" userLabel="Submit">
+                                <rect key="frame" x="135.5" y="456" width="49" height="30"/>
+                                <state key="normal" title="Submit"/>
+                                <connections>
+                                    <action selector="submitButtonDidTap:" destination="BYZ-38-t0r" eventType="touchUpInside" id="fNl-5h-YKr"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="i9w-DB-Nya" firstAttribute="height" secondItem="T3k-dF-Pug" secondAttribute="height" multiplier="0.6" id="1Fv-Ng-XSz"/>
+                            <constraint firstItem="i9w-DB-Nya" firstAttribute="top" secondItem="T3k-dF-Pug" secondAttribute="bottom" constant="64" id="4f3-Dp-8WL"/>
+                            <constraint firstItem="XJf-1P-uDp" firstAttribute="centerX" secondItem="i9w-DB-Nya" secondAttribute="centerX" id="9HC-vt-2GW"/>
+                            <constraint firstItem="i9w-DB-Nya" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" multiplier="0.8" id="Ulg-Gn-OTW"/>
+                            <constraint firstItem="T3k-dF-Pug" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" multiplier="0.5" id="Vv7-ZS-qhm"/>
+                            <constraint firstItem="i9w-DB-Nya" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="WeX-W9-whG"/>
+                            <constraint firstItem="XJf-1P-uDp" firstAttribute="top" secondItem="i9w-DB-Nya" secondAttribute="bottom" constant="25" id="aLq-jt-kCF"/>
+                            <constraint firstItem="T3k-dF-Pug" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="pC0-jT-Y49"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="messageTextField" destination="i9w-DB-Nya" id="aef-Qz-SjT"/>
+                        <outlet property="stegoImageView" destination="T3k-dF-Pug" id="Lvx-ll-9Ol"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="Wns-RS-qT4">
+                    <connections>
+                        <action selector="imageDidTap:" destination="BYZ-38-t0r" id="Bes-uP-34D"/>
+                    </connections>
+                </tapGestureRecognizer>
+            </objects>
+        </scene>
+    </scenes>
+</document>

@@ -9,11 +9,12 @@
 /* Begin PBXBuildFile section */
 		72FB1FA43455317BBE22B60D /* libPods-CourseProject.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2844F40BA0D3F7EE4AF2B1E9 /* libPods-CourseProject.a */; };
 		A2F26C5620223B33008A5704 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A2F26C5520223B33008A5704 /* AppDelegate.m */; };
-		A2F26C5920223B33008A5704 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A2F26C5820223B33008A5704 /* ViewController.m */; };
+		A2F26C5920223B33008A5704 /* StegoInsertionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A2F26C5820223B33008A5704 /* StegoInsertionViewController.m */; };
 		A2F26C5C20223B33008A5704 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2F26C5A20223B33008A5704 /* Main.storyboard */; };
 		A2F26C5E20223B33008A5704 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2F26C5D20223B33008A5704 /* Assets.xcassets */; };
 		A2F26C6120223B33008A5704 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2F26C5F20223B33008A5704 /* LaunchScreen.storyboard */; };
 		A2F26C6420223B33008A5704 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A2F26C6320223B33008A5704 /* main.m */; };
+		A2F26C7320223D32008A5704 /* ImagePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = A2F26C7220223D32008A5704 /* ImagePicker.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,13 +22,15 @@
 		A2F26C5120223B33008A5704 /* CourseProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CourseProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2F26C5420223B33008A5704 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		A2F26C5520223B33008A5704 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		A2F26C5720223B33008A5704 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		A2F26C5820223B33008A5704 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A2F26C5720223B33008A5704 /* StegoInsertionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StegoInsertionViewController.h; sourceTree = "<group>"; };
+		A2F26C5820223B33008A5704 /* StegoInsertionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StegoInsertionViewController.m; sourceTree = "<group>"; };
 		A2F26C5B20223B33008A5704 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A2F26C5D20223B33008A5704 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A2F26C6020223B33008A5704 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A2F26C6220223B33008A5704 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A2F26C6320223B33008A5704 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A2F26C7120223D32008A5704 /* ImagePicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImagePicker.h; sourceTree = "<group>"; };
+		A2F26C7220223D32008A5704 /* ImagePicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImagePicker.m; sourceTree = "<group>"; };
 		AB9F62B7073A90CA54E01FCC /* Pods-CourseProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CourseProject.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CourseProject/Pods-CourseProject.debug.xcconfig"; sourceTree = "<group>"; };
 		BA383777BE0F6BC7AA8DBED2 /* Pods-CourseProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CourseProject.release.xcconfig"; path = "Pods/Target Support Files/Pods-CourseProject/Pods-CourseProject.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -92,7 +95,6 @@
 		A2F26C6B20223BA2008A5704 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				A2F26C5A20223B33008A5704 /* Main.storyboard */,
 				A2F26C5D20223B33008A5704 /* Assets.xcassets */,
 				A2F26C5F20223B33008A5704 /* LaunchScreen.storyboard */,
 				A2F26C6220223B33008A5704 /* Info.plist */,
@@ -112,6 +114,7 @@
 		A2F26C6D20223BB8008A5704 /* Flow */ = {
 			isa = PBXGroup;
 			children = (
+				A2F26C7020223D32008A5704 /* ImagePicker */,
 				A2F26C6E20223BBB008A5704 /* Main */,
 			);
 			path = Flow;
@@ -120,6 +123,7 @@
 		A2F26C6E20223BBB008A5704 /* Main */ = {
 			isa = PBXGroup;
 			children = (
+				A2F26C5A20223B33008A5704 /* Main.storyboard */,
 				A2F26C6F20223BC0008A5704 /* View */,
 			);
 			path = Main;
@@ -128,10 +132,19 @@
 		A2F26C6F20223BC0008A5704 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				A2F26C5720223B33008A5704 /* ViewController.h */,
-				A2F26C5820223B33008A5704 /* ViewController.m */,
+				A2F26C5720223B33008A5704 /* StegoInsertionViewController.h */,
+				A2F26C5820223B33008A5704 /* StegoInsertionViewController.m */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		A2F26C7020223D32008A5704 /* ImagePicker */ = {
+			isa = PBXGroup;
+			children = (
+				A2F26C7120223D32008A5704 /* ImagePicker.h */,
+				A2F26C7220223D32008A5704 /* ImagePicker.m */,
+			);
+			path = ImagePicker;
 			sourceTree = "<group>";
 		};
 		B19C55D6F70FC3E9D4F78CDC /* Pods */ = {
@@ -268,7 +281,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A2F26C5920223B33008A5704 /* ViewController.m in Sources */,
+				A2F26C5920223B33008A5704 /* StegoInsertionViewController.m in Sources */,
+				A2F26C7320223D32008A5704 /* ImagePicker.m in Sources */,
 				A2F26C6420223B33008A5704 /* main.m in Sources */,
 				A2F26C5620223B33008A5704 /* AppDelegate.m in Sources */,
 			);
